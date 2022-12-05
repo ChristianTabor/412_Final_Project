@@ -1,0 +1,26 @@
+.sticky {
+    overflow: hidden;
+    position: sticky;
+}
+
+.navbar {
+    background: #29374A;
+    font-family: Corbel, sans-serif;
+}
+
+.nav-link, .navbar-brand {
+    color: #ffffff;
+}
+
+.nav-link, .nav-item {
+    margin-right: 10px !important;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+}
+
+.menuitem:hover {
+    background: #30384c;
+    opacity: 1.0;
+}

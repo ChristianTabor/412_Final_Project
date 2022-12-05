@@ -1,0 +1,41 @@
+#homepage {
+    border: 20px #29374A;
+    align-content: center;
+}
+
+#my-button {
+    background-color: #0d6efd;
+}
+
+#test a{
+    color: #0b2e13;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square {
+    position: relative;
+    width: 50vmin;
+    height: 12vmin;
+    border: solid #29374a 2px;
+    box-sizing: border-box;
+}
+
+.square:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+.content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
